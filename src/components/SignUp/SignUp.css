@@ -1,0 +1,22 @@
+.sign-up-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px;
+}
+.sign-up-text {
+  margin: 20px;
+  justify-self: flex-end;
+  padding-right: 8%;
+}
+
+.sign-up-text h2 {
+  margin-bottom: 10px;
+}
+
+.sign-up-text span {
+  font-weight: 500;
+  font-size: 14px;
+}
+.sign-up-formContainer {
+  max-width: 75%;
+}

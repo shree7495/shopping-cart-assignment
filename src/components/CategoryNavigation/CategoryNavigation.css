@@ -1,0 +1,22 @@
+.category-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 1.5px solid rgb(212 207 207);
+}
+.category-navigation p {
+  font-size: 14px;
+  /* white-space: nowrap; */
+  padding: 8px;
+}
+
+.category-navigation:hover {
+  cursor: pointer;
+  /* pointer-events: cursor; */
+}
+
+@media screen and (max-width: 500px) {
+  .categories-navigation {
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+.sign-in-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px;
+}
+.sign-in-text {
+  margin: 20px;
+  justify-self: flex-end;
+  padding-right: 8%;
+}
+
+.sign-in-text h2 {
+  margin-bottom: 10px;
+}
+
+.sign-in-text span {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.sign-in-formContainer {
+  max-width: 75%;
+}
